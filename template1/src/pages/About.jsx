@@ -20,7 +20,7 @@ function About() {
             <h2 className="text-2xl font-semibold text-slate-100">About the College</h2>
             <div className="mt-4 space-y-3 text-slate-400">
               <p><span className="font-semibold text-slate-100">அண்ணா பல்கலைக்கழகம், சென்னை</span></p>
-              <p>Anna University, Chennai</p>
+              <p>Anna University, TN</p>
               <p className="text-sm mt-4">A premier engineering institute focused on research-led learning and community-driven student success.</p>
             </div>
           </div>

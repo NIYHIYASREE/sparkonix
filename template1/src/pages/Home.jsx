@@ -23,7 +23,7 @@ function Home() {
             <div className="flex items-center gap-4 rounded-full bg-white/5 px-4 py-3 ring-1 ring-cyan-400/20 shadow-glow w-fit">
               <img src="/assets/college-logo.png" alt="Anna University" className="h-8 w-auto" />
               <div className="text-xs uppercase tracking-[0.3em] text-cyan-200">
-                <p className="font-semibold">Anna University, Chennai</p>
+                <p className="font-semibold">Anna University, TN</p>
                 <p className="text-slate-400">UCE, Tindivanam</p>
               </div>
             </div>

@@ -35,7 +35,7 @@ function Contact() {
                 <p className="text-sm uppercase tracking-[0.28em] text-cyan-300">College</p>
                 <div className="mt-3 space-y-2 text-slate-100">
                   <p className="font-semibold">அண்ணா பல்கலைக்கழகம், சென்னை</p>
-                  <p className="text-xs text-slate-400">Anna University, Chennai</p>
+                  <p className="text-xs text-slate-400">Anna University, TN</p>
                   <p className="font-semibold mt-3">பல்கலைக்கழக பொறியியல் கல்லூரி, திண்டிவனம்</p>
                   <p className="text-xs text-slate-400">University College of Engineering, Tindivanam</p>
                 </div>
