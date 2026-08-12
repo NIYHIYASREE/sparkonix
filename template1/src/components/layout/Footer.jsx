@@ -12,7 +12,7 @@ function Footer() {
           <div className="space-y-3">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">College</p>
             <div className="space-y-2 text-sm text-slate-400">
-              <p className="font-semibold text-slate-100">அண்ணா பல்கலைக்கழகம், சென்னை</p>
+              <p className="font-semibold text-slate-100">அண்ணா பல்கலைக்கழகம், </p>
               <p className="text-xs">Anna University, TN</p>
               <p className="font-semibold text-slate-100 mt-2">பல்கலைக்கழக பொறியியல் கல்லூரி, திண்டிவனம்</p>
               <p className="text-xs">University College of Engineering, Tindivanam</p>
