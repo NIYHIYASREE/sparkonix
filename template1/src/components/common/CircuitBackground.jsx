@@ -1,7 +1,40 @@
+import { useState } from 'react'
+
 function CircuitBackground() {
+  const [pointer, setPointer] = useState({ x: 50, y: 30 })
+  const [ripples, setRipples] = useState([])
+
+  function handlePointerMove(event) {
+    const bounds = event.currentTarget.getBoundingClientRect()
+    setPointer({
+      x: ((event.clientX - bounds.left) / bounds.width) * 100,
+      y: ((event.clientY - bounds.top) / bounds.height) * 100
+    })
+  }
+
+  function handlePointerDown(event) {
+    const bounds = event.currentTarget.getBoundingClientRect()
+    const ripple = {
+      id: `${Date.now()}-${Math.random()}`,
+      x: event.clientX - bounds.left,
+      y: event.clientY - bounds.top
+    }
+    setRipples((current) => [...current.slice(-3), ripple])
+  }
+
   return (
-    <div className="pointer-events-none absolute inset-0 opacity-30">
-      <svg className="h-full w-full" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true">
+    <div
+      className="touch-ripple-field absolute inset-0 z-0 overflow-hidden"
+      onPointerMove={handlePointerMove}
+      onPointerDown={handlePointerDown}
+      style={{ '--pointer-x': `${pointer.x}%`, '--pointer-y': `${pointer.y}%` }}
+      aria-hidden="true"
+    >
+      <div className="touch-ripple-glow" />
+      {ripples.map((ripple) => (
+        <span key={ripple.id} className="touch-ripple" style={{ left: ripple.x, top: ripple.y }} />
+      ))}
+      <svg className="h-full w-full opacity-30" viewBox="0 0 1440 900" preserveAspectRatio="none">
         <defs>
           <linearGradient id="trace" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#00D9FF" stopOpacity="0.24" />
