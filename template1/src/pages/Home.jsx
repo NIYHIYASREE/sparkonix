@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import CircuitBackground from '../components/common/CircuitBackground.jsx'
 import Button from '../components/common/Button.jsx'
 import useCountdown from '../hooks/useCountdown.js'
 import { events } from '../data/events.js'
@@ -11,7 +10,6 @@ function Home() {
 
   return (
     <section className="relative overflow-hidden px-6 pt-28 pb-20 lg:px-8">
-      <CircuitBackground />
       <div className="relative z-10 mx-auto max-w-7xl">
         <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
           <motion.div

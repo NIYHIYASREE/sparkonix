@@ -2,6 +2,7 @@ import { AnimatePresence } from 'framer-motion'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import Footer from './components/layout/Footer.jsx'
 import Navbar from './components/layout/Navbar.jsx'
+import InteractiveWaterBackground from './components/common/InteractiveWaterBackground.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import Events from './pages/Events.jsx'
@@ -16,7 +17,8 @@ function App() {
   const location = useLocation()
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
+    <div className="app-shell min-h-screen text-slate-100">
+      <InteractiveWaterBackground />
       <Navbar />
       <main className="relative overflow-hidden">
         <AnimatePresence mode="wait">
