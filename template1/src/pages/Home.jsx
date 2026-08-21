@@ -6,7 +6,7 @@ import useCountdown from '../hooks/useCountdown.js'
 import { events } from '../data/events.js'
 
 function Home() {
-  const countdown = useCountdown('2026-09-11T10:00:00')
+  const countdown = useCountdown('2026-08-14T10:00:00')
   const featured = events.slice(0, 3)
 
   return (

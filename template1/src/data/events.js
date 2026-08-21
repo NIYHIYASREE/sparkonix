@@ -1,6 +1,6 @@
 const announcedDetails = {
   venue: 'To be announced',
-  date: '14 August 2026',
+  date: '14.08.2026',
   time: 'To be announced',
   prize: 'Certificates and prizes',
   rules: ['Detailed rules will be announced by the organizing committee.']
@@ -14,7 +14,7 @@ export const events = [
     category: 'Technical',
     description: 'A technical presentation forum for students to share original ideas and research in electronics and communication.',
     teamSize: 'Solo / Team',
-    coordinators: ['Gautham', 'Bushra'],
+    coordinators: ['Dhinesh', 'Nithya Sree'],
     ...announcedDetails
   },
   {
@@ -24,7 +24,7 @@ export const events = [
     category: 'Technical',
     description: 'A fast-paced quiz covering core electronics, communication systems, and current technology.',
     teamSize: 'Team event',
-    coordinators: ['Ezhilarasan', 'Visaha'],
+    coordinators: ['Gautham', 'Bushra'],
     ...announcedDetails
   },
   {
@@ -34,7 +34,7 @@ export const events = [
     category: 'Technical',
     description: 'Showcase an innovative project and explain its problem, process, and real-world impact.',
     teamSize: 'Team event',
-    coordinators: ['Poovarasan'],
+    coordinators: ['Ezhilarasan', 'Visaha'],
     ...announcedDetails
   },
   {
@@ -44,7 +44,7 @@ export const events = [
     category: 'Non-Technical',
     description: 'A competitive gaming event bringing energy, strategy, and teamwork to the symposium floor.',
     teamSize: 'Team event',
-    coordinators: ['Mageshwaren', 'Jenifa'],
+    coordinators: ['Poovarasan', 'Abinaya'],
     ...announcedDetails
   },
   {
@@ -54,7 +54,7 @@ export const events = [
     category: 'Non-Technical',
     description: 'A stage event celebrating performance, creativity, and the energy of student talent.',
     teamSize: 'Solo / Team',
-    coordinators: ['Dharshan', 'Punitha'],
+    coordinators: ['Mageshwareen', 'Jenifa'],
     ...announcedDetails
   },
   {
@@ -64,7 +64,7 @@ export const events = [
     category: 'Non-Technical',
     description: 'A clue-based campus challenge built around teamwork, observation, and quick thinking.',
     teamSize: 'Team event',
-    coordinators: ['Ashwin Raj', 'Janani'],
+    coordinators: ['Dharshan', 'Punitha'],
     ...announcedDetails
   },
   {
@@ -74,7 +74,7 @@ export const events = [
     category: 'Non-Technical',
     description: 'A creative cinema-focused event for students who love visual storytelling and performance.',
     teamSize: 'To be announced',
-    coordinators: [],
+    coordinators: ['Ashwin Raj', 'Janani'],
     ...announcedDetails
   }
 ]
