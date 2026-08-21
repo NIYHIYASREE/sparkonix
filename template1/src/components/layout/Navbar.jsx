@@ -33,7 +33,7 @@ function Navbar() {
         <Link to="/" className="flex items-center gap-3">
           <img src="/assets/college-logo.png" alt="Anna University Logo" className="h-10 w-auto" />
           <div className="flex flex-col">
-            <span className="text-xs font-semibold text-cyan-300 uppercase tracking-[0.2em]">SPARKONIX '26</span>
+            <span className="text-xs font-semibold text-cyan-300 uppercase tracking-[0.2em]">NEXTRON '26</span>
             <span className="text-xs text-slate-400">அண்ணா பல்கலைக்கழகம்</span>
           </div>
         </Link>

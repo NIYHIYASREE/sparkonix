@@ -5,10 +5,10 @@ function About() {
         <div className="rounded-[2rem] border border-slate-800/80 bg-slate-950/80 p-10 shadow-glow">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
             <div className="flex-1">
-              <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">About Sparkonix</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">About NEXTRON'26</p>
               <h1 className="mt-4 text-4xl font-bold text-slate-100">A circuit-inspired celebration of ECE talent.</h1>
               <p className="mt-5 text-lg leading-8 text-slate-400">
-                SPARKONIX '26 brings together students from the ECE department for a weekend of innovation, competition, and hands-on learning. From technical quizzes to robotics races, the symposium blends core electronics energy with modern IoT and creative non-technical experiences.
+                NEXTRON '26 brings together students from the ECE department for a weekend of innovation, competition, and hands-on learning. From technical quizzes to robotics races, the symposium blends core electronics energy with modern IoT and creative non-technical experiences.
               </p>
             </div>
             <img src="/assets/clg-entrance.png" alt="College Entrance" className="h-48 w-auto rounded-2xl shadow-glow" />
@@ -36,7 +36,7 @@ function About() {
 
           <div className="rounded-[2rem] border border-slate-800/80 bg-slate-950/80 p-8 shadow-glow">
             <h2 className="text-2xl font-semibold text-slate-100">Our Mission</h2>
-            <p className="mt-4 text-slate-400">Sparkonix aims to inspire students to build technically strong projects, collaborate across teams, and present ideas with confidence to peer reviewers and technical judges.</p>
+            <p className="mt-4 text-slate-400">NEXTRON aims to inspire students to build technically strong projects, collaborate across teams, and present ideas with confidence to peer reviewers and technical judges.</p>
           </div>
         </div>
       </div>

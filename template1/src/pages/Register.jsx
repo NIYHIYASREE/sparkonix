@@ -57,7 +57,7 @@ function Register() {
         <div className="mx-auto max-w-3xl rounded-[2rem] border border-slate-800/80 bg-slate-950/90 p-10 text-center shadow-glow">
           <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">Registration complete</p>
           <h1 className="mt-5 text-4xl font-semibold text-slate-100">You’re all set.</h1>
-          <p className="mt-4 text-slate-400">Your registration request has been received and will be confirmed by the Sparkonix team.</p>
+          <p className="mt-4 text-slate-400">Your registration request has been received and will be confirmed by the NEXTRON team.</p>
         </div>
       </section>
     )
@@ -155,7 +155,7 @@ function Register() {
             <h2 className="mt-4 text-2xl font-semibold text-slate-100">Registration info</h2>
             <p className="mt-4 text-slate-400">Complete the form to reserve your spot. Team events require at least one additional member.</p>
             <div className="mt-6 space-y-4 rounded-3xl bg-slate-900/80 p-5">
-              <p className="text-sm text-slate-400">If you need changes after submission, contact Sparkonix coordinators via email.</p>
+              <p className="text-sm text-slate-400">If you need changes after submission, contact NEXTRON coordinators via email.</p>
               <p className="text-sm text-slate-400">All registrations are subject to final confirmation.</p>
             </div>
           </aside>

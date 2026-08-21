@@ -29,7 +29,7 @@ function Home() {
             </div>
             <div className="max-w-2xl space-y-5">
               <h1 className="text-5xl font-black tracking-[-0.04em] text-slate-100 sm:text-6xl">
-                SPARKONIX '26
+                NEXTRON '26
               </h1>
               <p className="max-w-xl text-lg leading-8 text-slate-300">
                 A circuit-inspired, futuristic ECE symposium celebrating innovation, robotics, IoT and tech creativity at University College of Engineering, Tindivanam.
@@ -39,7 +39,7 @@ function Home() {
                   Explore Events
                 </Button>
                 <Button as="link" to="/about" variant="ghost" className="min-w-[160px] border border-slate-700 text-slate-100 hover:text-electric">
-                  About Sparkonix
+                  About NEXTRON
                 </Button>
               </div>
             </div>
@@ -68,7 +68,7 @@ function Home() {
             <div className="flex items-center justify-between gap-4">
               <div>
                 <p className="text-xs uppercase tracking-[0.28em] text-cyan-400">Highlights</p>
-                <h2 className="mt-3 text-3xl font-semibold text-slate-100">Sparkonix at a glance</h2>
+                <h2 className="mt-3 text-3xl font-semibold text-slate-100">NEXTRON at a glance</h2>
               </div>
               <Button variant="secondary">10 events live</Button>
             </div>

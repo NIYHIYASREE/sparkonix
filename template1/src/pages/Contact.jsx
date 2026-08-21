@@ -4,7 +4,7 @@ function Contact() {
       <div className="mx-auto max-w-6xl space-y-10">
         <div>
           <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">Contact</p>
-          <h1 className="mt-4 text-4xl font-bold text-slate-100">Get in touch with the Sparkonix team</h1>
+          <h1 className="mt-4 text-4xl font-bold text-slate-100">Get in touch with the NEXTRON team</h1>
           <p className="mt-4 max-w-3xl text-slate-400">Have questions about registration, venue, or accommodation? Use the form below or reach out directly to our coordinators.</p>
         </div>
 

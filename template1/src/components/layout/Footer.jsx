@@ -5,7 +5,7 @@ function Footer() {
         <div className="grid gap-8 lg:grid-cols-[0.8fr_1fr_1fr_0.9fr]">
           <div className="space-y-3">
             <img src="/assets/college-logo.png" alt="Anna University Logo" className="h-12 w-auto" />
-            <p className="text-sm font-semibold text-slate-100">SPARKONIX '26</p>
+            <p className="text-sm font-semibold text-slate-100">NEXTRON '26</p>
             <p className="text-xs text-slate-400">ECE Department Symposium</p>
           </div>
 
@@ -39,7 +39,7 @@ function Footer() {
         </div>
 
         <div className="mt-8 border-t border-slate-800 pt-6 text-center text-xs text-slate-500">
-          <p>&copy; 2026 SPARKONIX | ECE Department, Anna University</p>
+          <p>&copy; 2026 NEXTRON | ECE Department, Anna University</p>
         </div>
       </div>
     </footer>
