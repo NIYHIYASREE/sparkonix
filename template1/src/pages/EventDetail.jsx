@@ -28,11 +28,8 @@ function EventDetail() {
   }
 
   const categoryColor = {
-    Tech: 'cyan',
-    'Core-ECE': 'green',
-    IoT: 'purple',
-    'IoT/Robotics': 'purple',
-    'Non-Tech': 'gold'
+    Technical: 'cyan',
+    'Non-Technical': 'gold'
   }
 
   return (
@@ -92,29 +89,12 @@ function EventDetail() {
           <section className="rounded-[2rem] border border-slate-800/80 bg-slate-950/80 p-8 shadow-glow">
             <h2 className="text-2xl font-semibold text-slate-100">Coordinators</h2>
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
-              <div className="rounded-3xl bg-slate-900/80 p-6">
-                <h3 className="text-sm uppercase tracking-[0.24em] text-slate-500">Faculty</h3>
-                <ul className="mt-4 space-y-3 text-slate-300">
-                  {event.coordinators.faculty.map((person) => (
-                    <li key={person.name}>
-                      <p className="font-semibold">{person.name}</p>
-                      <p className="text-sm text-slate-500">{person.phone}</p>
-                      <p className="text-sm text-slate-500">{person.email}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="rounded-3xl bg-slate-900/80 p-6">
-                <h3 className="text-sm uppercase tracking-[0.24em] text-slate-500">Students</h3>
-                <ul className="mt-4 space-y-3 text-slate-300">
-                  {event.coordinators.students.map((person) => (
-                    <li key={person.name}>
-                      <p className="font-semibold">{person.name}</p>
-                      <p className="text-sm text-slate-500">{person.phone}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              {(event.coordinators.length ? event.coordinators : ['To be announced']).map((name) => (
+                <div key={name} className="rounded-3xl bg-slate-900/80 p-6">
+                  <p className="text-sm uppercase tracking-[0.24em] text-slate-500">Student Coordinator</p>
+                  <p className="mt-3 font-semibold text-slate-100">{name}</p>
+                </div>
+              ))}
             </div>
           </section>
 

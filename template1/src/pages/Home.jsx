@@ -70,12 +70,12 @@ function Home() {
                 <p className="text-xs uppercase tracking-[0.28em] text-cyan-400">Highlights</p>
                 <h2 className="mt-3 text-3xl font-semibold text-slate-100">NEXTRON at a glance</h2>
               </div>
-              <Button variant="secondary">10 events live</Button>
+              <Button variant="secondary">7 events announced</Button>
             </div>
             <div className="grid gap-4 sm:grid-cols-3">
               <div className="rounded-3xl bg-slate-900/80 p-5 text-center ring-1 ring-white/10">
                 <p className="text-sm uppercase tracking-[0.24em] text-slate-400">Events</p>
-                <p className="mt-3 text-3xl font-semibold text-slate-100">10</p>
+                <p className="mt-3 text-3xl font-semibold text-slate-100">7</p>
               </div>
               <div className="rounded-3xl bg-slate-900/80 p-5 text-center ring-1 ring-white/10">
                 <p className="text-sm uppercase tracking-[0.24em] text-slate-400">Participants</p>

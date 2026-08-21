@@ -3,7 +3,7 @@ import EventCard from '../components/events/EventCard.jsx'
 import { events } from '../data/events.js'
 import Badge from '../components/common/Badge.jsx'
 
-const categories = ['All', 'Tech', 'Non-Tech', 'IoT', 'Core-ECE', 'IoT/Robotics']
+const categories = ['All', 'Technical', 'Non-Technical']
 
 function Events() {
   const [activeCategory, setActiveCategory] = useState('All')
@@ -19,7 +19,7 @@ function Events() {
         <div className="mb-12">
           <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">Event lineup</p>
           <h1 className="mt-4 text-4xl font-bold text-slate-100 sm:text-5xl">Explore all events</h1>
-          <p className="mt-4 max-w-2xl text-slate-400">Filter the schedule by category and discover which events match your skills, interests, or team size.</p>
+          <p className="mt-4 max-w-2xl text-slate-400">Explore the confirmed NEXTRON'26 events and find the student coordinators for each one.</p>
         </div>
 
         <div className="mb-10 flex flex-wrap gap-3">
@@ -40,8 +40,8 @@ function Events() {
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {filteredEvents.map((event) => (
-            <EventCard key={event.id} event={event} />
+          {filteredEvents.map((event, index) => (
+            <EventCard key={event.id} event={event} index={index} />
           ))}
         </div>
       </div>
